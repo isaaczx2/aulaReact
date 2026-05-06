@@ -5,9 +5,8 @@ export default function App()
 <h1> aula 02 - estados de componentes e props</h1>
 
 
+
 </div>
-
-
 
     )
 }
