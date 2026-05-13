@@ -1,11 +1,12 @@
-export default function Exemplo2()
+export default function Exemplo2( {numero1, numero2} )
 {
-return (
-<div>
+    let soma = Number(numero1) + Number(numero2);
+    return (
+        <div>
 
+            {numero1} + {numero2}= {soma}
 
+        </div>
 
-</div>
-
-)
+    )
 }
